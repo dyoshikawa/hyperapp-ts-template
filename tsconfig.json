@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["es2015", "dom"],
+    "strict": true,
+    "allowJs": true,
+    "jsx": "react",
+    "jsxFactory": "h",
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "typeRoots": ["types/@*", "node_modules/@*"]
+  },
+  "exclude": ["nodemodules", "dist", "src/css/vendor", "*.js"]
+}
